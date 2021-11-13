@@ -115,7 +115,9 @@ class _MyHomePageState extends State<MyHomePage> {
 }*/
 
 import 'package:flutter/material.dart';
+import 'package:test_text_field/src/app.dart';
 import 'package:test_text_field/src/first_test/first.dart';
+import 'package:test_text_field/src/second_test/second.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -145,7 +147,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: FirstTest(),
+      home: App(),
     );
   }
 }
