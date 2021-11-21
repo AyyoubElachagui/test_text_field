@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_text_field/src/first_test/first.dart';
 import 'package:test_text_field/src/four_test/four_test.dart';
+import 'package:test_text_field/src/rich_editor/rich_editor.dart';
 import 'package:test_text_field/src/second_test/second.dart';
 import 'package:test_text_field/src/threed_test/three_test.dart';
 
@@ -53,6 +54,15 @@ class _AppState extends State<App> {
                 );
               },
               child: Text("Four test"),
+            ),
+            ElevatedButton(
+              onPressed: (){
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyHomePage()),
+                );
+              },
+              child: Text("Zefyr package"),
             )
           ],
         ),

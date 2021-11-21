@@ -2,6 +2,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:html_editor_enhanced/html_editor.dart';
+import 'package:text_selection_controls/text_selection_controls.dart';
 
 class HtmlEditorExample extends StatefulWidget {
   HtmlEditorExample({Key? key,}) : super(key: key);
@@ -418,6 +419,8 @@ class _HtmlEditorExampleState extends State<HtmlEditorExample> {
                   ],
                 ),
               ),*/
+
+
             ],
           ),
         ),
