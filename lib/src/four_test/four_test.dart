@@ -44,6 +44,11 @@ class _HtmlEditorExampleState extends State<HtmlEditorExample> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               HtmlEditor(
+                callbacks: Callbacks(
+                  onBeforeCommand: (String? currentHtml){
+
+                  },
+                ),
                 controller: controller,
                 htmlToolbarOptions: HtmlToolbarOptions(
                   defaultToolbarButtons: [
